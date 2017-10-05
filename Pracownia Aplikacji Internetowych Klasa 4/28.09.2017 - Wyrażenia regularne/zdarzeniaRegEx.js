@@ -48,7 +48,7 @@ function sprawdzNazwisko(){
             else{
                 if(this.value[i]=='-'){
                     nazwisko += this.value[i] + this.value[i+1].toUpperCase();
-                    i++
+                    i++;
                 }else{
                     nazwisko += this.value[i].toLowerCase();
                 }
