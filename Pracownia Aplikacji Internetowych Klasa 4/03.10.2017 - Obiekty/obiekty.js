@@ -275,7 +275,7 @@ console.log(maciej.constructor.prototype.narodowosc);*/
 
 //******************************************************************************
 
-function Rower(firma,kolor){
+/*function Rower(firma,kolor){
 	this.firma = firma;
 	this.kolor = kolor;
 }
@@ -300,21 +300,24 @@ console.log(romet.hasOwnProperty('iloscKol')); //false ROZPOZNAJEMY CZY JEST PRO
 for(var i in romet){
 	if(romet.hasOwnProperty(i))
 	document.write('Własny obiekt: '+ i+'<br>')
-}
+}*/
 
 
-var zwierze={
+var pies={
 	nazwa: 'Pies',
 	waga: 10
 };
 
+function Zwierze(imie){
+	this.imie = imie;
+}
 
+Zwierze.prototype = pies;
 
+var kajtek = new Zwierze('kajtek');
 
-
-
-
-
+console.log(pies.isPrototypeOf(kajtek));
+console.log(kajtek);
 
 
 
