@@ -1,0 +1,12 @@
+#tabela, th ,td{
+	border: 1px solid teal;
+	width: 500px;
+	text-align: center;
+}
+table{
+	border-collapse: collapse;
+}
+img{
+	width: 400px; 
+	height: 300px;
+}
