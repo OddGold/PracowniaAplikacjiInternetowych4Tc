@@ -76,7 +76,7 @@
     suma1();
 
 //zad dom 
-//użytkownik podaje z klawiatury ilosc pieniędzy jakie dostał za prace(w formularzu) wstaw sumy do tablicy stworz tablice asocjacyjną w której kluczami będą miesiące. Suma za pracę bedzie automatycznie wstawiana do tablicy w zaleznosci od miesiąca. wstaw również do tablicy potwierdzenie dotyczące daty, godziny, minut i sekund w jakiej użytkownik dostał pieniądze. Użytkownik może wybrać okres w jakim chce sprawdzic ile zarobił jak również zarobek z 3 ostatnich miesiecy oraz całego roku.
+//użytkownik podaje z klawiatury ilosc pieniędzy jakie dostał za prace(w formularzu) wstaw sumy do tablicy stworz tablice asocjacyjną w której kluczami będą miesiące. Suma za pracę bedzie automatycznie wstawiana do tablicy w zaleznosci od miesiąca. wstaw również do tablicy potwierdzenie dotyczące daty, godziny, minut i sekund w jakiej użytkownik dostał pieniądze. Użytkownik może wybrać okres w jakim chce sprawdzic ile zarobił jak również średni zarobek z 3 ostatnich miesiecy oraz całego roku.
 
 
 
