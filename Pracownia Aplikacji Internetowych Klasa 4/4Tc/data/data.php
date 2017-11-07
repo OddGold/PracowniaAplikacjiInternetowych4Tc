@@ -1,3 +1,4 @@
+
 <?php
 
 //data 
@@ -89,9 +90,15 @@ TEKST;
     if($sekundy<10) $sekundy = "0".$sekundy;
     if($przestepnosc == 0) $dni = 365;
     else if($przestepnosc == 1) $dni = 366;
+    $dataDokladna = "$rok-$miesiac-$dzien | $godzina:$minuta:$sekundy<br> Rok $rok ma: $dni<br>";
     echo "<br>---------------------------------------------------";
-    echo "<br> ZADANIE DOMOWE <br>$rok-$miesiac-$dzien | $godzina:$minuta:$sekundy<br> Rok $rok ma: $dni<br>";
+    echo "<br> ZADANIE DOMOWE $dataDokladna<br>";
     echo "---------------------------------------------------<br>";
+
+    echo <<<TEKST
+        <input type="date" value="$rok-$miesiac-$dzien" disabled>
+        <br>
+TEKST;
 //*********************************************************************************************
 
 //znacznik czasu

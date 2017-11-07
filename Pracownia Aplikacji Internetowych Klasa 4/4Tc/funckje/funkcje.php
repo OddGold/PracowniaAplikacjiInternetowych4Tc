@@ -2,7 +2,7 @@
 
     //declare(strict_types = 1); // restrykcyjnosc typów
 
-    function wartosc($a):string{
+   /* function wartosc($a):string{
         if($a < 0):
             return "Ujemna";
         elseif($a>0):
@@ -10,7 +10,7 @@
         else:
             return "Zero";
         endif;
-    }
+    }*/
 
 
     
@@ -22,10 +22,10 @@
     echo $wynik," ", gettype($wynik),"<br>";
 
 
-    function dajWartosc():int{ //:int określa jaki typ danych zwraca funkcja
-        // return 5.6; //declare(strict_types = 1); NIE DA SIE TAK PRZY TYM XD
-        return 5;
-    }
+//    function dajWartosc():int{ //:int określa jaki typ danych zwraca funkcja
+//        // return 5.6; //declare(strict_types = 1); NIE DA SIE TAK PRZY TYM XD
+//        return 5;
+//    }
     
     echo dajWartosc(),"<br>"; //5
     
