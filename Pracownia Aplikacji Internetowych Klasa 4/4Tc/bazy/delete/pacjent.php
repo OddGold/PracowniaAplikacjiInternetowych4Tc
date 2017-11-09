@@ -19,11 +19,11 @@
     
         if(!$polaczenie->connect_errno){
             //echo "XD";
-            if(isset($_GET['sort']))
+            if(isset($_GET['sort'])){
             $sort = $_GET['sort'];
             if(isset($_SESSION['sort'])){
             if($_SESSION['sort']==$sort) $sort=$sort." DESC";
-                }
+                }}
             else $sort = 'id';
             
             $_SESSION['sort']=$sort;
