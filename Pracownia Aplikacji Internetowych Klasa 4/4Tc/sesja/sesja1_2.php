@@ -4,10 +4,6 @@
 
     session_start();
 
-    $_SESSION['imie'] = 'Filip';
-
-    
-
 ?>
 
 <!DOCTYPE html>
@@ -21,12 +17,11 @@
     Witamy 
     <?php
         echo $_SESSION['imie'];
-    ?><br>
+    ?> na ostatniej stronie!<br>
     Identyfikatorem sesji jest: <?php echo session_id(); ?><br>
-    <a href="sesja1_1.php">Następna strona</a>
+    <a href="sesja1.php">Początkowa strona</a>
     
-    <a href="sesja1.php?usunSesje">Usuń sesje</a>
-    
+    <a href="sesja1_2.php?usunSesje">Usuń sesje</a>
     <?php
     
     if(isset($_GET['usunSesje'])){
@@ -34,6 +29,6 @@
     }
     
     ?>
-    
+
 </body>
 </html>
